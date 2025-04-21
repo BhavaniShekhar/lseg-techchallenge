@@ -1,0 +1,7 @@
+# Execution examples:
+# When No key specified all meta data fetched
+python3 metadata_query.py
+# to get specific key
+python3 metadata_query.py instance-id
+python3 metadata_query.py ami-id
+
