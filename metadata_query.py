@@ -38,7 +38,7 @@ def allget_metadata(key=None):
             #print(json.dumps(response.text.splitlines(), indent=2))
             keys = response.text.splitlines()
             print(keys)
-            for k in keys[:-1]:
+            for k in keys:
                 if k is not None:
                     print(get_metadata(k))
 
